@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя домашня черепаха</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+<body  id="page-body">
     <br>
     <header>
         <nav>
@@ -15,43 +17,46 @@
         </nav>
     </header>
 
-    <h1>Сторінка моєї черепахи 🐢</h1>
-    <p><i>Наймудріший та найспокійніший член нашої родини</i></p>
+    <h1 id="main-title" class="title-primary">Сторінка моєї черепахи 🐢</h1>
+    <p id="main-subtitle" class="text-italic"><i>Наймудріший та найспокійніший член нашої родини</i></p>
 
     <hr>
     
-    <img src="./Photo/Testudo_horsfieldii;_Baikonur_001.jpg" alt="Фото черепахи" width="350" height="250">
+      <img src="./Photo/Testudo_horsfieldii;_Baikonur_001.jpg" alt="Фото черепахи" width="350" height="250">
     
-    <h2>Основна інформація</h2>
-    <table border="1" cellpadding="5" cellspacing="0">
-        <tr>
-            <td><b>Вид:</b></td>
-            <td>Черезпаха сухопутна </td>
+
+    
+    
+    <h2 id="info-heading" class="title-secondary">Основна інформація</h2>
+    <table id="info-table" class="data-table" border="1" cellpadding="5" cellspacing="0">
+        <tr class="table-row">
+            <td class=" cell-bold"><b>Вид:</b></td>
+            <td class="table-cell">Черепаха сухопутна</td>
         </tr>
-        <tr>
-            <td><b>Кличка:</b></td>
-            <td>Зефірка</td>
+        <tr class="table-row">
+            <td class=" cell-bold"><b>Кличка:</b></td>
+            <td class="table-cell">Зефірка</td>
         </tr>
-        <tr>
-            <td><b>Вік:</b></td>
-            <td>5 років</td>
+        <tr class="table-row">
+            <td class=" cell-bold"><b>Вік:</b></td>
+            <td class="table-cell">5 років</td>
         </tr>
-        <tr>
-            <td><b>Улюблена справа:</b></td>
-            <td>Нікуди не поспішати</td>
+        <tr class="table-row">
+            <td class=" cell-bold"><b>Улюблена справа:</b></td>
+            <td class="table-cell">Нікуди не поспішати</td>
         </tr>
     </table>
 
     <hr>
 
-        <h2>Про мене</h2>
+        <h2 class="title-secondary">Про мене</h2>
     <p>Я нікуди не поспішаю, бо знаю, що весь світ зачекає. Мій день складається з повільних прогулянок по кімнаті та тривалого відпочинку під теплою лампою. Маю свій власний міцний панцир, який захищає мене від усього на світі.</p>
 
     
 
     <hr>
 
-        <h2>Мої кумедні звички</h2>
+        <h2 class="title-secondary">Мої кумедні звички</h2>
     <ol>
         <li>Миттєво ховаю голову, якщо хтось швидко проходить повз мене.</li>
         <li>Можу годинами дивитися в одну точку і думати про щось своє.</li>
@@ -60,7 +65,7 @@
 
     <hr>
     
-    <h2>Що я люблю їсти</h2>
+    <h2 class="title-secondary">Що я люблю їсти</h2>
     <ul>
         <li>Свіже листя салату</li>
         <li>Кульбаби навесні</li>
